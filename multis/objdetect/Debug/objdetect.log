@@ -1,0 +1,57 @@
+﻿Build started 19/05/2014 PM 03:20:28.
+     1>Project "E:\HandGesture Photography\multis\objdetect\objdetect.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\objdetect.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Color.cpp multipleObjectTracking.cpp
+         multipleObjectTracking.cpp
+     1>c:\opencv248\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(146): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(196): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(197): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(199): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(200): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(203): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(206): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\handgesture photography\multis\objdetect\multipleobjecttracking.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Color.cpp
+     1>c:\opencv248\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\objdetect.exe.embed.manifest.res" Debug\objdetect_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\HandGesture Photography\multis\Debug\objdetect.exe" /INCREMENTAL /NOLOGO opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\objdetect.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\HandGesture Photography\multis\Debug\objdetect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\HandGesture Photography\multis\Debug\objdetect.lib" /MACHINE:X86 Debug\objdetect.exe.embed.manifest.res
+         Debug\Color.obj
+         Debug\multipleObjectTracking.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\objdetect.exe.embed.manifest" /manifest Debug\objdetect.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         objdetect.vcxproj -> E:\HandGesture Photography\multis\Debug\objdetect.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\objdetect.unsuccessfulbuild".
+         Touching "Debug\objdetect.lastbuildstate".
+     1>Done Building Project "E:\HandGesture Photography\multis\objdetect\objdetect.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.77
